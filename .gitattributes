@@ -1,0 +1,9 @@
+* text=auto eol=lf
+# Auto detect text files and perform normalization
+*          text=auto
+*.txt text
+*.gitignore text
+
+*.rs       text diff=rust
+*.toml     text diff=toml
+Cargo.lock text
